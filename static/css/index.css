@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+#particles-js {
+    height: 100%;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/static/images/hero.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    position: relative;
+    width: 425px;
+    height: 425px;
+    display: inline-block;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 100%;
+    transition: all linear 0.2s;
+}
+img.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.logo:hover img {
+    opacity: 0;
+}
+.logo:hover img.hover-img {
+    opacity: 1;
+}
+
+.modal.fade {
+    background: rgba(0,0,0,0.3);
+}
