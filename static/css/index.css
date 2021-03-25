@@ -6,12 +6,8 @@ body {
     overflow: hidden;
 }
 
-#particles-js {
-    height: 100%;
-}
-
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/static/images/hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/hero.jpg");
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,8 +16,8 @@ body {
 
 .logo {
     position: relative;
-    width: 425px;
-    height: 425px;
+    width: 500px;
+    height: 500px;
     display: inline-block;
 }
 
